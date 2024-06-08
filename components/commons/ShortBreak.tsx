@@ -14,7 +14,7 @@ import { Terminal } from "lucide-react";
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
-const shortBreak: React.FC = ({ labels, currentTab, onClick }: any) => {
+const ShortBreak: React.FC = ({ labels, currentTab, onClick }: any) => {
   const [time, setTime] = useState<number>(300); // 5 minutes
   const [isActive, setIsActive] = useState<boolean>(false);
   const [state, setState] = useState();
@@ -129,4 +129,4 @@ const shortBreak: React.FC = ({ labels, currentTab, onClick }: any) => {
   );
 };
 
-export default shortBreak;
+export default ShortBreak;

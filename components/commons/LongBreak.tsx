@@ -13,7 +13,7 @@ import { LuTimerReset } from "react-icons/lu";
 import { Terminal } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
-const shortBreak: React.FC = ({ labels, currentTab, onClick }: any) => {
+const LongBreak: React.FC = ({ labels, currentTab, onClick }: any) => {
   const [time, setTime] = useState<number>(600); // 10 minutes
   const [isActive, setIsActive] = useState<boolean>(false);
   const [state, setState] = useState();
@@ -138,4 +138,4 @@ const shortBreak: React.FC = ({ labels, currentTab, onClick }: any) => {
   );
 };
 
-export default shortBreak;
+export default LongBreak;
